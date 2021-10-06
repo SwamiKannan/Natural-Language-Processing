@@ -1,0 +1,1026 @@
+[
+    [
+        "neural-networks-for-sentiment-analysis",
+        [
+            [
+                "neural-networks-for-sentiment-analysis",
+                [
+                    [
+                        "course-3-introduction",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/DBgQDUaWQDOYEA1GlrAzOQ.processed/full/540p/index.mp4?Expires=1601596800&Signature=aIb24i-QsU4RitymqqCSDgqxiLPl0oSVtlZLnCOgum3Gn63q6UZiPr3F5TEzyqS5yZ2si2qZ6gRFdzJdg2IV9yAIMPoXQkHuAdkqiT34sXpKss2DGpzyh~d0T8xYBprEcQNEIcRONCqbY2~aPHDHhRjjIp~o~xUFi7DHauWBKy0_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "ja.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/ymIyos1cSXmiMqLNXGl5pQ?expiry=1601596800000&hmac=2-nrXrcryXlieXlArch663uVNS_DqK8v3rK6uf7FuXI&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/GAekDzqzRz-HpA86s6c_NQ?expiry=1601596800000&hmac=DVFYGW-9fBGAYRJs0lNZpE5gFQxX6rBJ9Zby12ur0X0&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "ja.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/ymIyos1cSXmiMqLNXGl5pQ?expiry=1601596800000&hmac=H-huH-vWi12CicbK1lnkgWqZQvsH1tn3cMx5VmeunDI&fileExtension=txt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/GAekDzqzRz-HpA86s6c_NQ?expiry=1601596800000&hmac=8mC4nhpX9XiD99pMlGGTabH2SxS8aFcqx5ORkWrbrEo&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "connect-with-your-mentors-and-fellow-learners-on-slack",
+                        {
+                            "html": [
+                                [
+                                    "#inmemory#<meta charset=\"utf-8\"/>\n<co-content>\n <p>\n  Please see the link in the first course to join our Slack workspace.\n </p>\n <p>\n  <a href=\"https://www.coursera.org/learn/classification-vector-spaces-in-nlp/supplement/ZdfXI/connect-with-your-mentors-and-fellow-learners-on-slack\" title=\"\">\n   Connect with your mentors and fellow learners on Slack!\n  </a>\n </p>\n <p>\n  Thanks!\n </p>\n <p>\n  - The deeplearning.ai team\n </p>\n</co-content>\n<style>\n body {\n    padding: 50px 85px 50px 85px;\n}\n\ntable th, table td {\n    border: 1px solid #e0e0e0;\n    padding: 5px 20px;\n    text-align: left;\n}\ninput {\n    margin: 10px;\n}\n}\nth {\n    font-weight: bold;\n}\ntd, th {\n    display: table-cell;\n    vertical-align: inherit;\n}\nimg {\n    height: auto;\n    max-width: 100%;\n}\npre {\n    display: block;\n    margin: 20px;\n    background: #424242;\n    color: #fff;\n    font-size: 13px;\n    white-space: pre-wrap;\n    padding: 9.5px;\n    margin: 0 0 10px;\n    border: 1px solid #ccc;\n}\n</style>\n<script async=\"\" src=\"https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML\" type=\"text/javascript\">\n</script>\n<script type=\"text/x-mathjax-config\">\n MathJax.Hub.Config({\n    tex2jax: {\n      inlineMath: [ ['$$','$$'], ['$','$'] ],\n      displayMath: [ [\"\\\\[\",\"\\\\]\"] ],\n      processEscapes: true\n    }\n  });\n</script>\n",
+                                    "instructions"
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "neural-networks-for-sentiment-analysis",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/iv_FwQKWQXS_xcECliF0lg.processed/full/540p/index.mp4?Expires=1601596800&Signature=WdLxHTm8qbWi2v0npIJf8qsy8PBBwjkVqtsL17uGwnvDyYaCc3BaIr1NhrJkTO5wVo3VywdCnsdmXteMI6Q31CgZuYkmc4e1h4IuJCCQyQhQlx-zoprxYYKaFW129INeIvA4wpgutLxJ4LYYasMraLh9w96pMqyKmZ-C~Byh6PM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "ja.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/MIFRaCkBQ_KBUWgpARPyQA?expiry=1601596800000&hmac=Sh90h8rPKhkqCCjNVZO-cL2AJOIsU2OYgdbziCAm2jo&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/n73HPcUCRBy9xz3FAgQcvw?expiry=1601596800000&hmac=XCPMaZDAD22ysvSgBW9FS2orD5z21OIllyRa4pfjog4&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "ja.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/MIFRaCkBQ_KBUWgpARPyQA?expiry=1601596800000&hmac=olt7OTTO4ctz95Rbrl_8f-aeml7eldp0Vi0vmvbgLYI&fileExtension=txt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/n73HPcUCRBy9xz3FAgQcvw?expiry=1601596800000&hmac=GbS4Nldhp0IfXIN-Hz0XDx_3fdrKmD5snwIw0L55j4k&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "trax-neural-networks",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/WSYPZgZTTP6mD2YGU_z-WQ.processed/full/540p/index.mp4?Expires=1601596800&Signature=TzcRf48P8HO1dS2z8GJfUByZcwJiHeGhny6ArxJduwwnj0xktwnqUGADqFpj~gU0kI22vAJW9AQQWc6761yEiDLtIn6STjLVUikls095FPIKZjYL-lvzB~M7W2LMs636zZ64R080ciIel54heiloO2WjIB0qkHSIdDJPoQoqI~c_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "ja.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/E5swSnXCSEibMEp1whhIDw?expiry=1601596800000&hmac=RZCFc3prfCEh6eicNBqXt_vYPsk2QlU8ehRn51-fzy8&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/ubFaAMt5Q4GxWgDLeUOBvQ?expiry=1601596800000&hmac=bPU3OedtSI5pH8TasQ1Kh7MzAe4oqk5tSVgDHelBv_A&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "ja.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/E5swSnXCSEibMEp1whhIDw?expiry=1601596800000&hmac=IMK6G4PO4Eo7hzXK6aTQIWmLtXM0bgC8cP27W-JwJqc&fileExtension=txt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/ubFaAMt5Q4GxWgDLeUOBvQ?expiry=1601596800000&hmac=RrdjcPdZGhzLm3825goIlPiniIZzPvDqcBBu6bqdqLk&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "why-we-recommend-trax",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/m78y9ZHoTNW_MvWR6DzVzg.processed/full/540p/index.mp4?Expires=1601596800&Signature=YAf71gxPIFeT~Z3W74FCGHG0XEIMyOkmSdeiZnPJdVoMisxS5xthbD6Ce8ZSbT16gv3rXKSvSDfIA~t-XZilXk7qOUav3PQo-eF7g3L0yD7YQLiI9bW-ZXmDg5z6YGo0UMTz6UnlKwSl5gs5D~-AmhBoEdRF0UWGlb~7TSyTzL4_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "ja.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/9ScueimTT8inLnopkz_IJA?expiry=1601596800000&hmac=MpeZFnAOObnaCcyZ-0HX-CNi_tN52_FdR_u6xVe-Fpo&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/7LeWAQwTTeW3lgEME03lOA?expiry=1601596800000&hmac=KPVBbDWxH22y_zlU43tow2a6ZaArz9o8hDOd13XLnJg&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "ja.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/9ScueimTT8inLnopkz_IJA?expiry=1601596800000&hmac=ePKevIOstcEigTdCLBH0YN8o5uZlWyMrq-wksPNOIVQ&fileExtension=txt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/7LeWAQwTTeW3lgEME03lOA?expiry=1601596800000&hmac=to0BbnA9_ZL8r2BruS6UWigO6ajN0UghIPmGJ8cg0_0&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "reading-optional-trax-and-jax-docs-and-code",
+                        {
+                            "html": [
+                                [
+                                    "https://jax.readthedocs.io/en/latest/index.html",
+                                    "index"
+                                ],
+                                [
+                                    "#inmemory#<meta charset=\"utf-8\"/>\n<co-content>\n <p>\n  Official Trax documentation maintained by the Google Brain team:\n </p>\n <p>\n  <a href=\"https://trax-ml.readthedocs.io/en/latest/\" title=\"trax-ml\">\n   https://trax-ml.readthedocs.io/en/latest/\n  </a>\n </p>\n <p>\n  Trax source code on GitHub:\n </p>\n <p>\n  <a href=\"https://github.com/google/trax\" title=\"trax\">\n   https://github.com/google/trax\n  </a>\n </p>\n <p>\n  JAX library:\n </p>\n <p>\n  <a href=\"https://jax.readthedocs.io/en/latest/index.html\" title=\"JAX\">\n   https://jax.readthedocs.io/en/latest/index.html\n  </a>\n </p>\n</co-content>\n<style>\n body {\n    padding: 50px 85px 50px 85px;\n}\n\ntable th, table td {\n    border: 1px solid #e0e0e0;\n    padding: 5px 20px;\n    text-align: left;\n}\ninput {\n    margin: 10px;\n}\n}\nth {\n    font-weight: bold;\n}\ntd, th {\n    display: table-cell;\n    vertical-align: inherit;\n}\nimg {\n    height: auto;\n    max-width: 100%;\n}\npre {\n    display: block;\n    margin: 20px;\n    background: #424242;\n    color: #fff;\n    font-size: 13px;\n    white-space: pre-wrap;\n    padding: 9.5px;\n    margin: 0 0 10px;\n    border: 1px solid #ccc;\n}\n</style>\n<script async=\"\" src=\"https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML\" type=\"text/javascript\">\n</script>\n<script type=\"text/x-mathjax-config\">\n MathJax.Hub.Config({\n    tex2jax: {\n      inlineMath: [ ['$$','$$'], ['$','$'] ],\n      displayMath: [ [\"\\\\[\",\"\\\\]\"] ],\n      processEscapes: true\n    }\n  });\n</script>\n",
+                                    "instructions"
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "trax-layers",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/IpC-4SHmRpSQvuEh5uaUvg.processed/full/540p/index.mp4?Expires=1601596800&Signature=eJYkKlvh4CWRjnW~Uj6~xsl-D-m2j5ADRtTUWpsscz8P~vCTwR2wuLrb1el1YWFurMq8UBoNe18IyR2ZERSPZjDCU6~gnBgchskGqcI2xpLVgM0qyKSsqruVb83piklgXfzAC20duU-SPXLtvUNxUM89uP-Qt8PZligJY2-pW-A_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "ja.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/tY65WybsTo2OuVsm7O6Naw?expiry=1601596800000&hmac=NyCalx_1M8iBFljkf0lJ31L6q5S8Rj28PsMH9qx6b2E&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/kdg-Y3I_Q5-YPmNyPzOflg?expiry=1601596800000&hmac=HGgXUioU_SJWupR_U8QesgYB-EJCJxaKsny7IewodVo&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "ja.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/tY65WybsTo2OuVsm7O6Naw?expiry=1601596800000&hmac=hLbr18qy7k55ATjO4y6YKjMi4B_xoiee99Wt1RetFzw&fileExtension=txt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/kdg-Y3I_Q5-YPmNyPzOflg?expiry=1601596800000&hmac=DNvQ3r7Zk44-h6e_lByIN7kZFeF6t9dOW5qJxDe3r78&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "dense-and-relu-layers",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/oktYDWcoQHqLWA1nKEB6mQ.processed/full/540p/index.mp4?Expires=1601596800&Signature=BuG4OvVbKU56KqdgbLrJ2-7JGu6THFtjopiYbJvc8zBa~riSEMYcOxz9VvuLHVcFV5Y~90Ytg7JT~AB~3Pae1RWsfL7JedVFDgbHhID2VW8p9evphAwgqn01tGAwyktrWFyFYNUTQHRy3zDaiVoI3qeQKTpeTGW~S3LYtSpKRAg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "ja.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/FMb3QM9KSM2G90DPSvjNnw?expiry=1601596800000&hmac=h7YOMQT-uG2n4mvpThVySxrmI6Ck3eSxHM8WucXnhU8&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/deITCcCORcyiEwnAjnXMYQ?expiry=1601596800000&hmac=PpmE6kKKhUpfY9IvGkP286nEgYVmzB41xt9eW1E2SS8&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "ja.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/FMb3QM9KSM2G90DPSvjNnw?expiry=1601596800000&hmac=toOVgyCQ13cEZI1AscPs8_6cA6-0qNFhZIVM0dnGtFw&fileExtension=txt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/deITCcCORcyiEwnAjnXMYQ?expiry=1601596800000&hmac=HoUE4HbPUOD1asPFarSR3gLXBDhkMHftYyduzdTBlfg&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "serial-layer",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/63PXC91xRu6z1wvdcbbuew.processed/full/540p/index.mp4?Expires=1601596800&Signature=XkTF3ONY4iWIe9Mv1AlbRWnb4Ztz2hdB7ayMKSmThWQ7sDrXCcPvRLMaAlx4UbCN4AnqcUbNgwNyqGsenkOa5GOgkqqPUGjBJAoczCVX5gtBJ-uw4klfIstBCmicS4XxTL5k5YwDv2AyP5aYQ9nbQGqZ2qi-506~5C56bTdBfBk_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "ja.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/ZE_fYLzhQyuP32C84cMr_w?expiry=1601596800000&hmac=IFivpd-oc4nRQPKrE_IHLyQgm-mnl72SCEuC4JYqmMY&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/ADzOSJ5eT228zkieXu9tGA?expiry=1601596800000&hmac=ezBxELWCpcEhyoY7utb7yf96LuVe9Hm9LfVtjsd8jk0&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "ja.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/ZE_fYLzhQyuP32C84cMr_w?expiry=1601596800000&hmac=163axCKcp2aNW6CTjAlpr5T1g-MmkSsT3CqZ-yFupgk&fileExtension=txt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/ADzOSJ5eT228zkieXu9tGA?expiry=1601596800000&hmac=KqajboY-qmEJtzNJ76JtJWtKu96e77a5D4h_7bK7cYc&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "other-layers",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/gpg5vYIYQgWYOb2CGIIFYw.processed/full/540p/index.mp4?Expires=1601596800&Signature=LEAVciCaFcP3TH035BMUlUGmZ-sARbYVgxOR9VdIp2qDcpA2uHRCPjqd8fu7DfL7xmd8NTItepHTMPTnnmq9Fxr4IXeFueDGaVQUlFnihHLuH8DYvMWAE-Juv-Hmgl1t~~gbw5s4pCjZtaZHr2o5yYyNZjGPxMHlVzUKICp6SXs_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "ja.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/20fCIlPsQ4aHwiJT7DOGJQ?expiry=1601596800000&hmac=KxqSOjJNRBBuqBKauwiBgAcSIvO3-sKMbob6H9rDl1o&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/dFcMwEIcQvmXDMBCHAL5Lg?expiry=1601596800000&hmac=MWOkUqHpgr25lhaz1QZz75UIj6LweyOccTXy3M4SRKE&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "ja.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/20fCIlPsQ4aHwiJT7DOGJQ?expiry=1601596800000&hmac=AAFF8F0Heg50vQMd5LNmsCQfEFk2PppSUSC7AsfGNaY&fileExtension=txt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/dFcMwEIcQvmXDMBCHAL5Lg?expiry=1601596800000&hmac=jdqcAmEBHqHUPFaLqKWifmDVwA_8fELhH57Dn7bUmFE&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "training",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/zjKfeRIARF2yn3kSAORdIg.processed/full/540p/index.mp4?Expires=1601596800&Signature=PLFJ9ah5YonRbmC-AU3CDMdSInsR8Q-A3dMSoCO09nLg0dXtWSes49ZWXnS7E0aEefm6Hr10VpbClnf3jcXFo6E81dKUuLK0xhQyE5AstN2nvFNKYLICixjFv32-7VHGDuAvEm~7b4L0Hc10iLvN8L5jj8Lw84hRX0aRmyBNaPM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "ja.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/GywARRwrQfCsAEUcK0HwLA?expiry=1601596800000&hmac=z1wHw4O8sEGIxF7HE9f1cc237shX-xBegRMhEdXSH6s&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/yxIxWO0yQOmSMVjtMgDpqA?expiry=1601596800000&hmac=-EIddSEU-mOtFJZvJoJjJHIgoakRAtlY2Loy5r07rhU&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "ja.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/GywARRwrQfCsAEUcK0HwLA?expiry=1601596800000&hmac=GtRpMebSEYmf0zoSd7nV2qDH7b1pEQhxdJeuxbNHn-k&fileExtension=txt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/yxIxWO0yQOmSMVjtMgDpqA?expiry=1601596800000&hmac=akjKDL3mJBlKcRTAJIMkzNoS611ZV62Ck9GHJkhWDUM&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ]
+                ]
+            ],
+            [
+                "assignment-sentiment-with-deep-nets",
+                [
+                    [
+                        "how-to-refresh-your-workspace",
+                        {
+                            "html": [
+                                [
+                                    "#inmemory#<meta charset=\"utf-8\"/>\n<co-content>\n <p>\n  There may come a time when you want to refresh your workspace to get the most updated version of the starter code.\u00a0 This may be the case if you wish to start over, or if the deeplearning.ai team has provided an update with bug fixes or enhancements.\u00a0 To refresh your workspace, please follow these steps:\n </p>\n <ul bullettype=\"bullets\">\n  <li>\n   <p>\n    In any Jupyter notebook, first save your work by going clicking File -&gt; Download as -&gt; Notebook (.ipynb)\n   </p>\n  </li>\n  <li>\n   <p>\n    Next, click File -&gt; Open. This opens up the file directory.\n   </p>\n  </li>\n  <li>\n   <p>\n    Select the notebook you wish to refresh from the list by clicking the check box next the the filename\n   </p>\n  </li>\n  <li>\n   <p>\n    Click the trashcan icon at the top to delete the notebook\n   </p>\n  </li>\n  <li>\n   <p>\n    Copy this text:\n    <strong>\n     ?forceRefresh=true\n    </strong>\n    and paste it onto the end of the URL in your browser bar then hit &lt;Enter&gt;.\n   </p>\n  </li>\n  <li>\n   <p>\n    You will see your workspace refresh with the updated copy of the notebook\n   </p>\n  </li>\n </ul>\n <p>\n </p>\n</co-content>\n<style>\n body {\n    padding: 50px 85px 50px 85px;\n}\n\ntable th, table td {\n    border: 1px solid #e0e0e0;\n    padding: 5px 20px;\n    text-align: left;\n}\ninput {\n    margin: 10px;\n}\n}\nth {\n    font-weight: bold;\n}\ntd, th {\n    display: table-cell;\n    vertical-align: inherit;\n}\nimg {\n    height: auto;\n    max-width: 100%;\n}\npre {\n    display: block;\n    margin: 20px;\n    background: #424242;\n    color: #fff;\n    font-size: 13px;\n    white-space: pre-wrap;\n    padding: 9.5px;\n    margin: 0 0 10px;\n    border: 1px solid #ccc;\n}\n</style>\n<script async=\"\" src=\"https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML\" type=\"text/javascript\">\n</script>\n<script type=\"text/x-mathjax-config\">\n MathJax.Hub.Config({\n    tex2jax: {\n      inlineMath: [ ['$$','$$'], ['$','$'] ],\n      displayMath: [ [\"\\\\[\",\"\\\\]\"] ],\n      processEscapes: true\n    }\n  });\n</script>\n",
+                                    "instructions"
+                                ]
+                            ]
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ],
+    [
+        "recurrent-neural-networks-for-language-modeling",
+        [
+            [
+                "n-grams-vs-sequence-models",
+                [
+                    [
+                        "traditional-language-models",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/rE1dnLOERwKNXZyzhLcCnw.processed/full/540p/index.mp4?Expires=1601596800&Signature=XgmwKqEINi41siyM6zcVcQKN6IsOuACzITwJMDSZ00TiTsWHmqTehVvQSfK9cUWDXJcA3cbQrBPcOB~rnRQbynAZ8tiUM1oEuk~ig8hhTcPfa8kXSQ9dY4YKdXtD~s~XE57bUKrf7fl2RXgJzx-6GLxgnzV2Bwz~8NbgSKMMznE_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "ja.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/nNyjJwMfRE-coycDH3RPug?expiry=1601596800000&hmac=sHEBWE1PfHDbPKNHMg-H43wlauyIqek29vfi-Uj6ndU&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/Ci7K8DdrRhuuyvA3ayYbpQ?expiry=1601596800000&hmac=M74g1zhk9Qry_NYRRE84wtX-4P7G3qYWTcs85FP4XbM&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "ja.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/nNyjJwMfRE-coycDH3RPug?expiry=1601596800000&hmac=XISi66i7LLotwJxmh9AqtqxLjWJc2vJxLNhZrmp3toM&fileExtension=txt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/Ci7K8DdrRhuuyvA3ayYbpQ?expiry=1601596800000&hmac=EMVeBW7WmBmtGKPp_mWLoIALCGriRIoEgay5YakZyuk&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "recurrent-neural-networks",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/OJ59F4MHR3OefReDB1dz8w.processed/full/540p/index.mp4?Expires=1601596800&Signature=VoxyoqJBAqMeL3fmfvl3h~fSXuXDpkfzC3CRI4qQh867BRnDgIF1Lhj6CYuuqTM9h3lvbUBkTvKz3PN2rE-Pui5eX7HRF7pqqhK~~eVJY9fhjadHXMlTmPyWZo8VuKetGdvO5ox~-UM75nQ1Rzrl92xNkqo0ltdJ5aZybr-6O4Q_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/Kf9TARHmRem_UwER5hXp9g?expiry=1601596800000&hmac=SPBRXx6-pQdWT0DeX2072UPynhglB5TG0roidM7AU4Y&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/Kf9TARHmRem_UwER5hXp9g?expiry=1601596800000&hmac=hlKvW3C_nqEQrJ0S0uZSFUfWbsb4r_ZkCEk6lFSLBVk&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "applications-of-rnns",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/lqmOPuwpRk2pjj7sKXZNaQ.processed/full/540p/index.mp4?Expires=1601596800&Signature=Vx8vWgtJFsSrExiCmmJ0rPoHJQgLft5XhW1Q6qDgsASUkmIO6ojClWX6SjjM5zb2w8zqz7pTj20sdxQa3CohS02X5l3lea5Jmleft34V3AE1DFX4e-vMvD30fxwaRqdXn3XKr9BVABWDUVGsdUUrILZdCUM6wBS1TUJOH~dYmGk_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "ja.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/jGXhj7IVTZul4Y-yFZ2bpA?expiry=1601596800000&hmac=sadsiQcz17r0VHxBOQR7LQKGLvwwVe4cfUClCxNfNpw&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/PNmOWGHMTD2ZjlhhzFw93Q?expiry=1601596800000&hmac=nB5gcLw2E0pDP6e496s0rmj1Uthq6-MhloKdmEttDDs&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "ja.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/jGXhj7IVTZul4Y-yFZ2bpA?expiry=1601596800000&hmac=Hvjxy4RtTa9umE5M0OrY5gv7VqBZSx_KpgQz5xNkyck&fileExtension=txt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/PNmOWGHMTD2ZjlhhzFw93Q?expiry=1601596800000&hmac=eHPCJuVmAtLKfXN1Dkks9jn-yCUzbCM2HN0GbLNGjko&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "math-in-simple-rnns",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/aUsmnZ0VQXSLJp2dFWF04g.processed/full/540p/index.mp4?Expires=1601596800&Signature=UU7MOt-9IgHrvxy2pbxZeiJ7gF735DcpgViGLfOOoFw~WqflIEjNVhW1kFEBl5vcEmp6w2lMXo3ePGpBHl2DBIAUGCqKY7i5dJsscF86eWQdDgmA20hat4g666Cx~y5B3bz5mU~5KndcaG3Df5ZvnJFk5F0-tulxHDYQCYVTTX4_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "ja.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/XKDvnqfQQreg756n0DK3pA?expiry=1601596800000&hmac=1Eo_9g4w7CT2DBy3WAObvvb6LcZ1r5NTiTA2MIxDHG8&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/ATqBvx0gTHq6gb8dIAx6Rg?expiry=1601596800000&hmac=Z44AHtjjrTF_BnSJiYj0VdDL99dfiMDotJOAugJJB5g&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "ja.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/XKDvnqfQQreg756n0DK3pA?expiry=1601596800000&hmac=8RSGGecnrgZ-Ty1UxTD9k372MKyBY6-SpcC9qVCmSCA&fileExtension=txt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/ATqBvx0gTHq6gb8dIAx6Rg?expiry=1601596800000&hmac=XI9XWn9IJLA41nzQKwXHK90B92pTM_mvuYTgkJByuwI&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "cost-function-for-rnns",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/U5gsAq3CRzKYLAKtwscy_Q.processed/full/540p/index.mp4?Expires=1601596800&Signature=EOUGrOcfKPVspn3G4onyUSsAihXMFnehnTq8kaxAlzQ8aMHURkV1zeACNpvPJsQ6oE-zca0dPN-DWOqI9Zp~yHKM7XBWRO4eGPGmyHonAc-DvDz7ACvuL8w0K9mdyIHlN8BN8TQrKdcLKMoPW70INI8RbHg~Q03xCZkiGuCn8Sc_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "ja.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/UFEGw5DsTMGRBsOQ7IzB2w?expiry=1601596800000&hmac=BZ_Fm4rYq8H2mrWjsT7ukxMY1Yi8YCTJO-UwaL0wiwc&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/shRfyrEzShWUX8qxM4oVxg?expiry=1601596800000&hmac=91CC7uapmPYGPXo25BFk3079uM7U7Nnlqsh9hqZdXLM&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "ja.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/UFEGw5DsTMGRBsOQ7IzB2w?expiry=1601596800000&hmac=A6ynYKC6mSWmyAT9ID1MjPdFNYOCDhsr1GMyTH2sYXQ&fileExtension=txt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/shRfyrEzShWUX8qxM4oVxg?expiry=1601596800000&hmac=a9MmV-xc-DEqMPgX43ZdD_cytOmUhR3mfaHVAEV_jys&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "implementation-note",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/BXLTLi2EQNqy0y4thFDayg.processed/full/540p/index.mp4?Expires=1601596800&Signature=hQGmqaraU60EzZNe-JwmTaqST~eQ52Ag2bnpqwI5F1fmuRNrfyJj30hGk~R0PB9i5wq6JU~tVjdAqgcvaaxwBYIrP8Je1z2Xf0gk8n0TBmaQD-xGPpa56lCfY1dY0mpQ37yy95UyYeOTMNDHN7MmJAkbrnzjQDhx2S2t9pxv5x0_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "ja.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/IUJT5FPKQbGCU-RTynGxsg?expiry=1601596800000&hmac=G4YhpHYY2v26UXQPOZnN_0qDUO0d7ZzJ9OaXnZmLXCY&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/KQc86DBKQ9-HPOgwSpPfug?expiry=1601596800000&hmac=egVfiHKICS8gpZERiRRnrYODY6Dv315O8-0bag0EjgU&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "ja.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/IUJT5FPKQbGCU-RTynGxsg?expiry=1601596800000&hmac=zwlNGCmGCyO6d7g-v5EN26G27kDnseztIbSYNFUbZmo&fileExtension=txt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/KQc86DBKQ9-HPOgwSpPfug?expiry=1601596800000&hmac=uZmSft6MI80z-1z9YT18B2rFl_QyxHibV5i69F1z_hg&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "gated-recurrent-units",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/NmMHUs1ES6GjB1LNRMuhNQ.processed/full/540p/index.mp4?Expires=1601596800&Signature=dkf81bPZgZ~v6tBVRR7xTyaSI6eg2xRHb2uL5SzcELKnFSKXGnPzw1am4H4I4cQ9kUHsTavwGEEijJRmaXXowosyeTYPd1oFcT8VhGU2A86j65qWor-HXYCLMx7IVZ5aEL~ulmtaT3~ejb0W8NynC8Xwel0lz3dEtqzZG5A57no_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "ja.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/a_PelN9cST6z3pTfXBk-0w?expiry=1601596800000&hmac=XGpegOJplD8peuBsJA0qcLIV6-IcF2apyhNk9hdUgtA&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/RQk20hUrRXWJNtIVK6V1Uw?expiry=1601596800000&hmac=nHcAjerrcxsNnPheEPCCUuwpoCZ8cKysU_5D_g-kvww&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "ja.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/a_PelN9cST6z3pTfXBk-0w?expiry=1601596800000&hmac=T8TmZyeSsdxoKviJn6yslW6WKkxcWzPmoa4CxdWgj00&fileExtension=txt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/RQk20hUrRXWJNtIVK6V1Uw?expiry=1601596800000&hmac=OvkmO6acCOr4fFEYZ9_Q1bbd_Cc1Fa-tdpoe52ZWwaA&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "deep-and-bi-directional-rnns",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/dWEeFuzYQ4yhHhbs2OOMEA.processed/full/540p/index.mp4?Expires=1601596800&Signature=F4ZH1ux9yo1GMnbeE84pHeeXt7dbF8ZDANAnYbv-YnvxxwmwVGqBsSPq8umM7pNBsxqWI0nIIuiuEGXVwq7ujTq6GCtYCXw6uzF1AvSGLaQOURR6~gLfXmOCiGb60TIZCtG~49Ek5ZtQonIReGC2~mLSBid7cOVJ24WB6h65prk_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/O72QXFCdR4-9kFxQnVePMA?expiry=1601596800000&hmac=A4cCXdx3WlN_KC_oIyI6VeW-nrDc9Xz92P2dWkydcS8&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/O72QXFCdR4-9kFxQnVePMA?expiry=1601596800000&hmac=ueBgRoO3sU6suLoWHyrwwF9OPFWQpmLUWPFynzvFidw&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ],
+    [
+        "lstms-and-named-entity-recognition",
+        [
+            [
+                "lstms-and-named-entity-recognition",
+                [
+                    [
+                        "rnns-and-vanishing-gradients",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/4TNlAsdGSyWzZQLHRnsl8A.processed/full/540p/index.mp4?Expires=1601596800&Signature=gZI-3925FEObJ6glCEDtAAF9S9zujCC7hO-lJan47bFD-UAr9iwGLBgoYOJ~G2Nr5bvX3CcDsZRqh53doO1NNO9FCrOIluZRG3oqp1EC5Z0H4ExmRY7MSdNTUVsBsy95XXMO5vqgQt5E5ORvkLC6Mjuo9h9oDYgzBYpGv9Ns5Tk_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/vr_XRz91Tc2_10c_dT3NJA?expiry=1601596800000&hmac=QCvU7ORtJ-H_IbaM_0usu-O2hw59-ucww9EPs4OVoJg&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/vr_XRz91Tc2_10c_dT3NJA?expiry=1601596800000&hmac=G4E2xjbaoWSytGWeJtZGffyA3hI7ajE5M6X7ujUbVIY&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "optional-intro-to-optimization-in-deep-learning-gradient-descent",
+                        {
+                            "html": [
+                                [
+                                    "#inmemory#<meta charset=\"utf-8\"/>\n<co-content>\n <p>\n  Check out this blog from Paperspace.io if you're interested in understanding in more depth some of the challenges in gradient descent.\n </p>\n <p>\n  <a href=\"https://blog.paperspace.com/intro-to-optimization-in-deep-learning-gradient-descent/\" title=\"\">\n   https://blog.paperspace.com/intro-to-optimization-in-deep-learning-gradient-descent/\n  </a>\n </p>\n</co-content>\n<style>\n body {\n    padding: 50px 85px 50px 85px;\n}\n\ntable th, table td {\n    border: 1px solid #e0e0e0;\n    padding: 5px 20px;\n    text-align: left;\n}\ninput {\n    margin: 10px;\n}\n}\nth {\n    font-weight: bold;\n}\ntd, th {\n    display: table-cell;\n    vertical-align: inherit;\n}\nimg {\n    height: auto;\n    max-width: 100%;\n}\npre {\n    display: block;\n    margin: 20px;\n    background: #424242;\n    color: #fff;\n    font-size: 13px;\n    white-space: pre-wrap;\n    padding: 9.5px;\n    margin: 0 0 10px;\n    border: 1px solid #ccc;\n}\n</style>\n<script async=\"\" src=\"https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML\" type=\"text/javascript\">\n</script>\n<script type=\"text/x-mathjax-config\">\n MathJax.Hub.Config({\n    tex2jax: {\n      inlineMath: [ ['$$','$$'], ['$','$'] ],\n      displayMath: [ [\"\\\\[\",\"\\\\]\"] ],\n      processEscapes: true\n    }\n  });\n</script>\n",
+                                    "instructions"
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "introduction-to-lstms",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/welcQgA-S-OpXEIAPhvjgQ.processed/full/540p/index.mp4?Expires=1601596800&Signature=V41Pc8q~T71p~NVnn6eVy9zmsJKHsIysTykqHZixh2g6HiDbeEaWDlvPWwaveraeSNvzUt3vlr8gj~FtrQG1xE3AMWfOtqedJB096XkPorpmfgMJ7Efocq4wZR~7ZpSAWFbPq7jsHsznbS1Z5aMcRjHaX5-KncoXjxKCDopee9Q_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/NQ3jnVYaSi2N451WGiotlQ?expiry=1601596800000&hmac=PM42QxsEgUETn5TDaXYT22ay5aD59qhJ2O5bHuEdgCY&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/NQ3jnVYaSi2N451WGiotlQ?expiry=1601596800000&hmac=67arJyqNWzBugPWNJfDB27pUnb3T8SP66RR3jqxbZBQ&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "optional-understanding-lstms",
+                        {
+                            "html": [
+                                [
+                                    "#inmemory#<meta charset=\"utf-8\"/>\n<co-content>\n <p>\n  Here's a classic post on LSTMs with intuitive explanations and diagrams, to complement this week's material.\n </p>\n <p>\n  <a href=\"https://colah.github.io/posts/2015-08-Understanding-LSTMs/\" title=\"A great, classic post on LSTMs \">\n   https://colah.github.io/posts/2015-08-Understanding-LSTMs/\n  </a>\n </p>\n</co-content>\n<style>\n body {\n    padding: 50px 85px 50px 85px;\n}\n\ntable th, table td {\n    border: 1px solid #e0e0e0;\n    padding: 5px 20px;\n    text-align: left;\n}\ninput {\n    margin: 10px;\n}\n}\nth {\n    font-weight: bold;\n}\ntd, th {\n    display: table-cell;\n    vertical-align: inherit;\n}\nimg {\n    height: auto;\n    max-width: 100%;\n}\npre {\n    display: block;\n    margin: 20px;\n    background: #424242;\n    color: #fff;\n    font-size: 13px;\n    white-space: pre-wrap;\n    padding: 9.5px;\n    margin: 0 0 10px;\n    border: 1px solid #ccc;\n}\n</style>\n<script async=\"\" src=\"https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML\" type=\"text/javascript\">\n</script>\n<script type=\"text/x-mathjax-config\">\n MathJax.Hub.Config({\n    tex2jax: {\n      inlineMath: [ ['$$','$$'], ['$','$'] ],\n      displayMath: [ [\"\\\\[\",\"\\\\]\"] ],\n      processEscapes: true\n    }\n  });\n</script>\n",
+                                    "instructions"
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "lstm-architecture",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/Xjt8zwWPSvm7fM8Fj6r5ig.processed/full/540p/index.mp4?Expires=1601596800&Signature=Wtc3w3Ni8KOYCjO8sjPVi4h3-TmUHuM1p8xiV6MKshefC~u2L--I6Hu~CJNED7h4B4xcfYKiaBa9ZEzFxdALeF91b~WIFFVCm4hDaIPVsi-By9gBNLzm1~GIpy7UZiheAjzFisaRCne~KeXAwAe394JsBapDI~xYxj3tzcic-UA_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/SW9A_6sxTOOvQP-rMdzjYg?expiry=1601596800000&hmac=K6Pfv_WghLMp5RSfqHNVqveCoN14s64g5oVoyduUtVI&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/SW9A_6sxTOOvQP-rMdzjYg?expiry=1601596800000&hmac=QqvNcLvaq8X_R9JETjpRrLTxoy099mo3oCSUQ5tPlaM&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "introduction-to-named-entity-recognition",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/dy6ZbdALR0yumW3QC2dMZA.processed/full/540p/index.mp4?Expires=1601596800&Signature=VOUsPUwiYR3QrXgQYeFqjeT4um-1yObtzXqimSIHnIJYJ17mmy4wqNFZn4RXh~WJMojolfvWpLxYfbvdVpTBRJB5Ao-2keUKnI1wUQ7GsGDU89wRW6byimOzDDDTyHYURkomVZD7BBTNEAVPxnaxI~SId1ktlZYMlOJ1~d3ntB8_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/kHq0uHhGQPu6tLh4RvD7KQ?expiry=1601596800000&hmac=vyOMXnsOh0KAtYSVzdV2NTB-r9oEkbJI6U4pH1Bvgdo&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/kHq0uHhGQPu6tLh4RvD7KQ?expiry=1601596800000&hmac=PwgFqy8jjxeEEuSYJFOR464RbNtk8htDkZFwd_MfI-w&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "training-ners-data-processing",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/v_4QxjCHQsq-EMYwh_LKag.processed/full/540p/index.mp4?Expires=1601596800&Signature=kdnE~b0xbFU8bh7fJ6qP2zBFEzSOJZzVjb2WGJkfjyRSts6zD8cwkxYVsFWipA4XBbD4PRnr8-nE5upNcVqscbolSZrxLO~41fqwtCEI9bNN53Mwu0fjCj2UHYUiItbo~whFenSYufHS~GW18LXIKFMi-Z9LbdiBp5b25obyT1c_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/w5n2wV77Q3KZ9sFe-8NySA?expiry=1601596800000&hmac=BL-aWD2cgOXW_3T7LAC-ZHotqlMmwM56yx9Cir8SWiw&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/w5n2wV77Q3KZ9sFe-8NySA?expiry=1601596800000&hmac=DYcMkxbcXmrZOqFj_YsCjEFRZ5bkvzaGRhWDWS56pOM&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "long-short-term-memory-deep-learning-specialization-c5",
+                        {
+                            "html": [
+                                [
+                                    "#inmemory#<meta charset=\"utf-8\"/>\n<co-content>\n <p>\n  A video from the Deep Learning Specialization week on Sequence Models, with in-depth explanations of the equations used in the LSTM:\n </p>\n <p>\n  <a href=\"https://www.coursera.org/learn/nlp-sequence-models/lecture/KXoay/long-short-term-memory-lstm\" title=\"Deep Learning Specialization Course 5: Long Short-Term Memory Units\">\n   https://www.coursera.org/learn/nlp-sequence-models/lecture/KXoay/long-short-term-memory-lstm\n  </a>\n </p>\n <p>\n  The correct version of the final equation in the output gate is here:\n </p>\n <p>\n  <a href=\"https://www.coursera.org/learn/nlp-sequence-models/supplement/xdv6z/long-short-term-memory-lstm-correction\" title=\"Corrected equation for LSTM\">\n   https://www.coursera.org/learn/nlp-sequence-models/supplement/xdv6z/long-short-term-memory-lstm-correction\n  </a>\n </p>\n <p>\n  <strong>\n   Note:\n  </strong>\n  Since this is a separate course in another specialization, you will need to enroll to view the links above. You can do so\n  <a href=\"https://www.coursera.org/learn/nlp-sequence-models\" title=\"DLS C5\">\n   here\n  </a>\n  . You can just audit the course to avoid fees if you plan to just view these links.\n </p>\n</co-content>\n<style>\n body {\n    padding: 50px 85px 50px 85px;\n}\n\ntable th, table td {\n    border: 1px solid #e0e0e0;\n    padding: 5px 20px;\n    text-align: left;\n}\ninput {\n    margin: 10px;\n}\n}\nth {\n    font-weight: bold;\n}\ntd, th {\n    display: table-cell;\n    vertical-align: inherit;\n}\nimg {\n    height: auto;\n    max-width: 100%;\n}\npre {\n    display: block;\n    margin: 20px;\n    background: #424242;\n    color: #fff;\n    font-size: 13px;\n    white-space: pre-wrap;\n    padding: 9.5px;\n    margin: 0 0 10px;\n    border: 1px solid #ccc;\n}\n</style>\n<script async=\"\" src=\"https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML\" type=\"text/javascript\">\n</script>\n<script type=\"text/x-mathjax-config\">\n MathJax.Hub.Config({\n    tex2jax: {\n      inlineMath: [ ['$$','$$'], ['$','$'] ],\n      displayMath: [ [\"\\\\[\",\"\\\\]\"] ],\n      processEscapes: true\n    }\n  });\n</script>\n",
+                                    "instructions"
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "computing-accuracy",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/xtinAjqpRLyYpwI6qbS81A.processed/full/540p/index.mp4?Expires=1601596800&Signature=jbccxCn5WVrcrU1RVqH3~5E2~arRl0jgeBukSDkGWFU0zFRs5Q3umAtBRmmyBUecCIIqoyOOyEvqOvbmn3q4uOelz8n6jbcWQuhlRlxFehaDGlqRCiGgmltPkbBAPQ4NdmkQPHvDofYPASZbV4wf3apJfVy0HhCT2fnY16mG6us_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/0oocQzr7SXqKHEM6-8l6Nw?expiry=1601596800000&hmac=1L5d6R5vHebA0nub6KAgFqx1NB20ruFiTFbz8fEZruA&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/0oocQzr7SXqKHEM6-8l6Nw?expiry=1601596800000&hmac=zuHO1-24MMPGfx-X1ZzzmwM3S541-timV6joNQ3PL24&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ],
+    [
+        "siamese-networks",
+        [
+            [
+                "siamese-networks",
+                [
+                    [
+                        "siamese-networks",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/LnBPBk_3TUiwTwZP981IOg.processed/full/540p/index.mp4?Expires=1601596800&Signature=PmJys1ZK2pOUDW-SR8MwzR~YkrmoG02BuA-phgYIMlW3Glau~fyZ6CQ9t7r1AMY9~5xx3ZJ~WcEu38IAVyQSJR7pQwuTJHYEFVEefRrn~ogFi1Vk4GlhfLluB1d2T59dVE02nta2N2G7MCl1i8yzX5h0DRho8gWUDa2R3aqFrhc_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/eFkhmS_kSEWZIZkv5JhFig?expiry=1601596800000&hmac=uKAgMbHog63UeAQ7xtmUeu4aDLZrdFCkQsBnvOEH8oc&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/eFkhmS_kSEWZIZkv5JhFig?expiry=1601596800000&hmac=WilIndj4Qsv9842ifLAThyLrS1UxnwPQWMtL8hm8eL0&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "architecture",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/TiU_7hfITPylP-4XyJz8wg.processed/full/540p/index.mp4?Expires=1601596800&Signature=kSWSdIxHIGXe-0IDK4doi6rErpNAxa3XNGRPng5kKqRfaLWi9t-dfnCN14anAib~avenGFVGs8XcD~bGEcrvCO~ADt8Y52YmlhqpeTeDiP-gt-FCZr0jwSaTxi9GRsj88YS4Dgl6mfAIvuULJzMj~xGV-aRUWQkbsQV9XY16yuQ_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/TQuvRYC9TEmLr0WAvQxJrA?expiry=1601596800000&hmac=E6Eh5XEnJ0vtytTebmtkgAyuAHWOYQVZZ99kkFkQaSk&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/TQuvRYC9TEmLr0WAvQxJrA?expiry=1601596800000&hmac=aDAbmInyMNxpKHrZSSy3WM1zFUlPmkS7wQVTuA2uD_c&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "cost-function",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/owmdBkGgR4SJnQZBoPeEnQ.processed/full/540p/index.mp4?Expires=1601596800&Signature=NhWQjAP~Vty~xr6RN49tjoTFECpFqBDZbWS7NZYierMs6GKuDjP5QfUbW~TpRvs9YMMeb66-uCCojoqJjIrf~SqzMRzRQcNXdAt7RZTvXnsPpg~MscQ9WrByC~iDxBrWckEZAIxM2E4y-y7KbSZebARRhESCwMbtGRKqbEajNWo_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/RQ6R1ZaJTI-OkdWWiTyPeg?expiry=1601596800000&hmac=BsnzotOALVdUIEVkb6VtyHZqnBcmniNpCvX7q2JIKjk&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/RQ6R1ZaJTI-OkdWWiTyPeg?expiry=1601596800000&hmac=U1dDnqcTFcVkzFks_EzbaF7DsrWZu6nInq0EaLJ2SLc&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "triplets",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/qsvU7lK5RryL1O5SuRa8gg.processed/full/540p/index.mp4?Expires=1601596800&Signature=d6US0Cmtoqp3tdUn26SUsPzRk0EZlkIS0q-PPk6TEA-IaAk6hFBKzrdcQ7VDGSJJjdvJKDB2wjjgw7C1FXCR2ZpJIQ8ALJ7IBkjfX4F9yVkVfu2hQlbrP7mdDGgPk1srlOQ~cDRw~hm9QP58UQ54OnX~RWP1UJ-ZAbOfHw0W16k_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/7PoptQTrTiy6KbUE644sRA?expiry=1601596800000&hmac=f_mq6-e_XBVv4k0lsS7jXIO1lJ9Jgp4yVVJis33EAak&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/7PoptQTrTiy6KbUE644sRA?expiry=1601596800000&hmac=J78QAQhdlxdLVUHjn8jODRsAV_6hVBpGJV5uCHGxmJY&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "computing-the-cost-i",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/-l-ScuLdSDmfknLi3Wg5Dw.processed/full/540p/index.mp4?Expires=1601596800&Signature=iqJMauUmKM-kRYyp8I6ef95t4oLTpzsT1QWBtPx7AzLK9RMPt~Wmg8n4FcRsj~unVmpT2KFXyWVZ2C8ZLhkG-WuNpalPEkkH4K-Qafb4MImERQmO4M6MobQfc7gwftz8O8qnZEyFuWBAz~VnVMEo-DafD5TqRh32WgnB~J6xcnk_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/TyMBSwWXRpKjAUsFlwaSjA?expiry=1601596800000&hmac=xq8MrsOKNl8nYoXdo-AMJGxbTV_CtPeYHQCnDEjE-rs&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/TyMBSwWXRpKjAUsFlwaSjA?expiry=1601596800000&hmac=rZ-LC2jc9q8stJYV0odNvg_gFoOc07h8way2yEf97b8&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "computing-the-cost-ii",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/RaMvXBH2QLOjL1wR9sCzUw.processed/full/540p/index.mp4?Expires=1601596800&Signature=KqdbDX2x0j2jzXTeN3Mc6pn05KFnqautkaavXZiYXQCYhpMvGqLInWQ74NI3HqwWsgVXt2gKH6jqt~dxzXTFR5UoVfVvD1J2qfCSmotNxAxFhS5kBP9H6cjgh9WaDZzgRiMgobLDHlz-SxvXrrlERMAbBZiB-izvZRU1XJuMRko_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/9QbiSF31SsaG4khd9YrGpQ?expiry=1601596800000&hmac=3yrkclYbojWpeJbIRxrJn1ysSMnc_G8zfh8i3lBllzA&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/9QbiSF31SsaG4khd9YrGpQ?expiry=1601596800000&hmac=GsahkoGQhrZvJBIvMEOK0CIRoyuRDmSiEko4MQpXpQE&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "one-shot-learning",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/6H5iU4_qQUm-YlOP6qFJzw.processed/full/540p/index.mp4?Expires=1601596800&Signature=L963jEQ5Q4hi2TgC5UeuDoGZnOmoFq7yW9yPtKOFG8xZFjI2z2dnfUV51Qx2WZ4WTnT2Ypei1sZeWT6aebUSJozzoWvF5NDBisvXvNjF4UBOqSeO7cBub5U4ewxSai8y9d4fRd7EiWlxQ91lkWtYSs3r1izvwwh-z~VCfdNIu4c_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/ZTu3Yl87RY27t2JfO6WN5g?expiry=1601596800000&hmac=E3meLaq0ojwcTbNa68NZiMtOcVc0Mdd3tgdI8qrVn_o&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/ZTu3Yl87RY27t2JfO6WN5g?expiry=1601596800000&hmac=-vj-uHNJkcltjIG8n0hXWlKUlv_8-ik60q_tRbStTHE&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "training-testing",
+                        {
+                            "mp4": [
+                                [
+                                    "https://d3c33hcgiwev3.cloudfront.net/O0yzoPESQHyMs6DxEmB8Rg.processed/full/540p/index.mp4?Expires=1601596800&Signature=hW1gx~vjmH8LTCieqQ~pUEFBQvX5Lw9xBKAqdXE~ovRDXPQNXVPFbErb0QpJrOXNLmhBPLr7h2OMwE9qo1-IlVR3YFliIaIZl00eNhnIqtoYP6zpJsHDP6ccxuF-qgX3xGusIoGBIW3ynfaZ~EVXdYUDrQUpVKWfPual~eHOuWU_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    ""
+                                ]
+                            ],
+                            "en.srt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/s9cNc_6FRGWXDXP-hZRlYA?expiry=1601596800000&hmac=X1ZyZi42r3t60rSNxKk4u4tcQ7oT5qVvlTU2rU9qSro&fileExtension=srt",
+                                    ""
+                                ]
+                            ],
+                            "en.txt": [
+                                [
+                                    "https://api.coursera.org/api/subtitleAssetProxy.v1/s9cNc_6FRGWXDXP-hZRlYA?expiry=1601596800000&hmac=qa--9gH-LVrMRs4ilRhl_re-8HE9k1kDTw2dJiSAwGM&fileExtension=txt",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ]
+                ]
+            ],
+            [
+                "assignment-question-duplicates",
+                [
+                    [
+                        "acknowledgments",
+                        {
+                            "html": [
+                                [
+                                    "#inmemory#<meta charset=\"utf-8\"/>\n<co-content>\n <p>\n  We would like to give a special thanks to Dan Jurafsky for advising on the course outline and for his book on speech and language processing.\n </p>\n <p>\n  We would also like to thank Andrew Ng for giving guidance on the course outline and giving the instructors guidance on teaching best practices.\n </p>\n <p>\n  Younes Mourri and Lukasz Kaiser designed and built the graded assignments and lectures, and taught the course.\n </p>\n <p>\n  Eddy Shyu revised lectures and assignments, and recruited and managed alpha testers, curriculum authors, and code review consultants.\n </p>\n <p>\n  Ryan Keenan provided lecture design training to curriculum authors, guided lecture revisions, recruited and managed the entire team.\n </p>\n <p>\n  Ortal Arel provided program management for the instructors, on-camera coaching, and handled instructor recruitment.\n </p>\n <p>\n  Lara Pheatt-Pitzer provided program management for the entire team.\n </p>\n <p>\n </p>\n <p>\n  Curriculum developers revised lectures and slides, and also wrote scripts and quizzes based on alpha tester feedback.\n </p>\n <p>\n  Course 1 week 1: Daniel Villaraga\n </p>\n <p>\n  Course 1 week 2: Andres Castillo\n </p>\n <p>\n  Course 1 week 3: Daniel Villaraga\n </p>\n <p>\n  Course 1 week 4: Eddy Shyu\n </p>\n <p>\n  Final script editing for all lectures by Arden Thira\n </p>\n <p>\n </p>\n <p>\n  Course 2 week 1: Eddy Shyu\n </p>\n <p>\n  Course 2 week 2: Konstantin Thierbach\n </p>\n <p>\n  Course 2 week 3: Petra Vanickova\n </p>\n <p>\n  Course 2 week 4: Sebastien Pujadas\n </p>\n <p>\n  Final script editing for all lectures by Arden Thira\n </p>\n <p>\n </p>\n <p>\n  Course 3 week 1: Daniel Villaraga\n </p>\n <p>\n  Course 3 week 2: Daniel Villaraga\n </p>\n <p>\n  Course 3 week 3: Arden Thira\n </p>\n <p>\n  Course 3 week 4: Ryan Keenan, Eddy Shyu\n </p>\n <p>\n </p>\n <p>\n  Code Review Consultants revised graded assignments and curriculum engineers worked on the autograder.\n </p>\n <p>\n  Course 1 week 1: Paul Mielke, Andres Castillo\n </p>\n <p>\n  Course 1 week 2: Gordon Robinson, Andres Castillo\n </p>\n <p>\n  Course 1 week 3: Miguel Martinez, Parth Agrawal\n </p>\n <p>\n  Course 1 week 4: Tomislav Bukic, Eddy Shyu, Parth Agrawal\n </p>\n <p>\n </p>\n <p>\n  Course 2 week 1: Parth Agrawal, Geoff Ladwig, Eddy, Shyu, Andres Zarta\n </p>\n <p>\n  Course 2 week 2: Geoff Ladwig, Andres Zarta\n </p>\n <p>\n  Course 2 week 3: Kota Mori, Andres Zarta\n </p>\n <p>\n  Course 2 week 4: Manfred Vogel, Miguel Martinez, Andres Zarta, Eddy Shyu\n </p>\n <p>\n </p>\n <p>\n  Course 3 week 1: Manish Jain, Eddy Shyu, Parth Agrawal\n </p>\n <p>\n  Course 3 week 2: Luis Alaniz, Eddy Shyu, Parth Agrawal\n </p>\n <p>\n  Course 3 week 3: Arden Thira, Geoff Ladwig, Parth Agrawal\n </p>\n <p>\n  Course 3 week 4: Manfred Vogel, Geoff Ladwig, Parth Agrawal\n </p>\n <p>\n </p>\n <p>\n  Curriculum engineers and curriculum developers built ungraded labs (\u201clecture notebooks\u201d) to help prepare learners for the graded assignments.\n </p>\n <p>\n  Course 1 week 1: Andres Castillo\n </p>\n <p>\n  Course 1 week 2: Andres Castillo\n </p>\n <p>\n  Course 1 week 3: Andres Castillo\n </p>\n <p>\n  Course 1 week 4: Andres Castillo\n </p>\n <p>\n </p>\n <p>\n  Course 2 week 1: Eddy Shyu\n </p>\n <p>\n  Course 2 week 2: Andres Zarta\n </p>\n <p>\n  Course 2 week 3: Petra Vanickova\n </p>\n <p>\n  Course 2 week 4: Sebastien Pujadas\n </p>\n <p>\n </p>\n <p>\n  Course 3 week 1: Daniel Villarraga, Andres Castillo, Parth Agrawal\n </p>\n <p>\n  Course 3 week 2: Daniel Villarraga, Andres Zarta, Parth Agrawal\n </p>\n <p>\n  Course 3 week 3: Andres Castillo, Parth Agrawal\n </p>\n <p>\n  Course 3 week 4: Andres Zarta, Parth Agrawal\n </p>\n <p>\n </p>\n <p>\n  Curriculum Engineers built the software environment and adapt the graded assignments to work on the Coursera platform\n </p>\n <p>\n  Andres Zarta\n </p>\n <p>\n  Juan Delgado\n </p>\n <p>\n  Andres Castillo\n </p>\n <p>\n  Santiago Hernandez\n </p>\n <p>\n </p>\n <p>\n  Learning Technologists implement updates based on beta tester feedback and learner feedback after the course goes live:\n </p>\n <p>\n  Chris Favila (course 1)\n </p>\n <p>\n  Mubsi Khawar (course 2)\n </p>\n <p>\n  Parth Agrawal (course 3)\n </p>\n <p>\n </p>\n <p>\n  The QA Manager, Arturo Polanco, manages the alpha tester community, course mentors and learner community.\n </p>\n <p>\n  Alice Lin, Event Marketing Manager, organizes live, virtual guest speaker events for learners.\n </p>\n <p>\n </p>\n <p>\n  We would also like to thank the team at Coursera for quality assurance, platform updates, and for managing the building of the autograder.\n </p>\n <p>\n  Juan Delgado, AI Content Developer\n </p>\n <p>\n  Brandon Iljas, Technical Account Manager\n </p>\n <p>\n </p>\n <p>\n  We would like to thank the mentors for supporting learners as they take the course, as well as the alpha testers who provided several rounds of feedback as we revised the course.\n </p>\n <p>\n </p>\n <p>\n  Finally, we would like to thank YOU for taking the course and joining the global community of learners!\n </p>\n <p>\n </p>\n</co-content>\n<style>\n body {\n    padding: 50px 85px 50px 85px;\n}\n\ntable th, table td {\n    border: 1px solid #e0e0e0;\n    padding: 5px 20px;\n    text-align: left;\n}\ninput {\n    margin: 10px;\n}\n}\nth {\n    font-weight: bold;\n}\ntd, th {\n    display: table-cell;\n    vertical-align: inherit;\n}\nimg {\n    height: auto;\n    max-width: 100%;\n}\npre {\n    display: block;\n    margin: 20px;\n    background: #424242;\n    color: #fff;\n    font-size: 13px;\n    white-space: pre-wrap;\n    padding: 9.5px;\n    margin: 0 0 10px;\n    border: 1px solid #ccc;\n}\n</style>\n<script async=\"\" src=\"https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML\" type=\"text/javascript\">\n</script>\n<script type=\"text/x-mathjax-config\">\n MathJax.Hub.Config({\n    tex2jax: {\n      inlineMath: [ ['$$','$$'], ['$','$'] ],\n      displayMath: [ [\"\\\\[\",\"\\\\]\"] ],\n      processEscapes: true\n    }\n  });\n</script>\n",
+                                    "instructions"
+                                ]
+                            ]
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ]
+]
