@@ -1,4 +1,0 @@
-to do
-1. Download all the files to dump to delete
-2. Strip out all !pips in C3 and C4
-3. Find versions of all the damn trax stuff

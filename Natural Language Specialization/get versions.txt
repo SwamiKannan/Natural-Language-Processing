@@ -1,4 +1,0 @@
-!pip3 show trax
-!pip3 show jax
-!pip3 show jaxlib
-!pip3 show t5
