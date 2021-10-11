@@ -1,4 +1,5 @@
 # Natural Language Processing
+![NLP](intro.png)
  
 Language is the foundational tool around which societies have been built. However, due to its fuzziness and flexible structure, it has been a difficult input to process in systems. However, the ability of deep learning algorithms to model language and vocabulary sets has been an incredible lever to process copious datasets of unstructured data and add meaning to existing computational models.
 
@@ -23,3 +24,5 @@ Language is the foundational tool around which societies have been built. Howeve
  <li> Sarcasm Detection in News Headlines </li>
  <li> Trouble ticket classifications </li>
  </ul>
+
+*Image credit: https://navigate360.com/
